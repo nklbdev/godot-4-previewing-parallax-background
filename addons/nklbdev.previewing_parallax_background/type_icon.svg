@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="64"
-   viewBox="0 0 64 64"
-   width="64"
+   height="16"
+   viewBox="0 0 16 16"
+   width="16"
    version="1.1"
    id="svg6"
    sodipodi:docname="type_icon.svg"
@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="16.046875"
-     inkscape:cx="22.77702"
-     inkscape:cy="25.70594"
+     inkscape:cx="22.839338"
+     inkscape:cy="30.753651"
      inkscape:window-width="2560"
      inkscape:window-height="1361"
      inkscape:window-x="-9"
@@ -34,6 +34,6 @@
      inkscape:current-layer="svg6" />
   <path
      id="path2406"
-     d="M 8,8 C 5.7908636,8 4,9.7908636 4,12 v 40 c 0,2.209136 1.7908636,4 4,4 h 48 c 2.209136,0 4,-1.790864 4,-4 V 12 C 60,9.7908636 58.209136,8 56,8 Z M 28,20 V 44 L 16,32 Z m 8,0 12,12 -12,12 z"
-     style="fill:#e0e0e0;fill-opacity:0.99608;stroke-width:4" />
+     d="M 2,2 C 1.4477159,2 1,2.4477159 1,3 v 10 c 0,0.552284 0.4477159,1 1,1 h 12 c 0.552284,0 1,-0.447716 1,-1 V 3 C 15,2.4477159 14.552284,2 14,2 Z m 5,3 v 6 L 4,8 Z m 2,0 3,3 -3,3 z"
+     style="fill:#e0e0e0;fill-opacity:0.99608;stroke-width:1" />
 </svg>
