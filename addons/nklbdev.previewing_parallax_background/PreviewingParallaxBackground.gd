@@ -1,7 +1,6 @@
-@tool
+@tool @icon("type_icon.svg")
 extends ParallaxBackground
 class_name PreviewingParallaxBackground
-@icon("type_icon.svg")
 
 var __previous_canvas_transform: Transform2D
 var __previous_viewport_size: Vector2i
