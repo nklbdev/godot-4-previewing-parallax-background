@@ -44,7 +44,7 @@ func __update_children(force: bool = false) -> void:
 	__previous_viewport_size == viewport_size
 
 	var inverted_canvas_transform: Transform2D = canvas_transform.affine_inverse()
-	var screen_offset: Vector2 = -(inverted_canvas_transform * Vector2(viewport_size / 2))
+	var screen_offset: Vector2 = -inverted_canvas_transform.origin
 
 	var scroll_ofs: Vector2 = scroll_base_offset + screen_offset * scroll_base_scale
 
@@ -69,4 +69,7 @@ func __update_children(force: bool = false) -> void:
 	for child in get_children():
 		parallax_layer = child as ParallaxLayer
 		if parallax_layer != null:
-			parallax_layer.position = scroll_ofs * parallax_layer.motion_scale + parallax_layer.motion_offset - screen_offset
+			parallax_layer.position = \
+				scroll_ofs * parallax_layer.motion_scale + \
+				parallax_layer.motion_offset * scale - \
+				screen_offset * scale
